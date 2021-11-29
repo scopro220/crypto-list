@@ -2,8 +2,6 @@ import Image from "next/image";
 import Layout from "../components/Layout";
 
 export default function HomePage({ coins }) {
-  console.log(coins);
-
   return (
     <Layout>
       <div className="my-9 text-center text-6xl">TOP 20 CRYPTO LIST</div>
